@@ -1,7 +1,3 @@
-
-
-
-
 // criar uma variavel para armazenar o cpf
 let cpf = "07980465970"
 
@@ -29,7 +25,6 @@ if (array.length != 11) {
         veri1 = 11 - (soma1%11)
 
     // veri2
-
     for (let i = 0; i < 10; i++){
         soma2 += parseInt(array[i]) * (11-i)
     }
@@ -46,14 +41,3 @@ if (array.length != 11) {
     } else {
         console.log("O CPF é invalido")
     }
-
-
-
-
-    
-    
- 
-
-    
-    
-    
